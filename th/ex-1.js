@@ -1,11 +1,11 @@
 const moveZeroes = function (nums) {
   //Start coding here
-  
+
   // filter, spread
-  let notZero = nums.filter(e => e !== 0)
-  let zero = nums.filter(e => e === 0)
-  let ans = [...notZero, ...zero]
-  return ans
+  // let notZero = nums.filter(e => e !== 0)
+  // let zero = nums.filter(e => e === 0)
+  // let ans = [...notZero, ...zero]
+  // return ans
 
   //two pointer
   let left = 0
