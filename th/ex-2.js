@@ -37,8 +37,8 @@ const romanToInt = function (s) {
   return total
 };
 
-const invalidInput = romanToInt('IV')
-console.log(invalidInput)
+// const invalidInput = romanToInt('IV')
+// console.log(invalidInput)
 
 const result1 = romanToInt("III"); // 3
 console.log(result1);
